@@ -10,12 +10,12 @@ namespace GitBranch
     {
         public static int Calculate(int n)
         {
-            int res = 1;
+            int res1 = 1;
             for (int i = 0; i < n; i++)
             {
-                res *= i;
+                res1 *= i;
             }
-            return res;
+            return res1;
         }
     }
 }
